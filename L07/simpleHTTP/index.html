@@ -1,0 +1,28 @@
+<html>
+
+   <style>
+      div { text-align: center; }
+   </style>
+
+   <script type="module">
+      import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+      Chatbot.init({
+         // replace chatflowid with your own chatflowid
+         chatflowid: "3bed089f-4daa-4a39-ae59-1d9c2e496ba0",
+         apiHost: "http://localhost:3000",
+      })
+   </script>
+
+   <body>
+      <h1 style="text-align: center;">Flowise</h1>
+      <div>
+         <img src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise.png?raw=true" alt="Flowise">
+      </div>
+      <br/>
+      <div>
+         <a href="https://github.com/FlowiseAI/Flowise">Github: Flowise</a>
+         <br/>
+         <a href="https://docs.flowiseai.com/">Flowise Documentation</a>
+      </div>
+   </body>
+</html>
